@@ -4,5 +4,7 @@ from myapp.views import main, profile
 
 urlpatterns = [
     path('', views.main, name='main'),
-    path('profile/', views.profile, name='profile'),
+    path('memories/', views.memories, name='memories'),
+    path('memories/save/', views.memories, name='save_memory'),
+    path('memories_save/', views.memories_save, name='memories_save'),
 ]
