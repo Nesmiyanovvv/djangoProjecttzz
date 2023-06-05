@@ -129,20 +129,3 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
-AUTHENTICATION_BACKENDS = [
-    'django.contrib.auth.backends.ModelBackend',
-    'allauth.account.auth_backends.AuthenticationBackend',
-]
-
-SOCIALACCOUNT_PROVIDERS = {
-    'vk': {
-        'APP': {
-            'client_id': '51666751',
-            'secret': 'sOActAaGiXKsSVNgFxXC',
-            'key': ''
-        }
-    }
-}
-
-LOGIN_REDIRECT_URL = 'profile'
