@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.vk',
-    'myapp.apps.MyAppConfig',
+    #'myapp.apps.MyAppConfig',
 
 ]
 
